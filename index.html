@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e233d6f6af.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+    <title>Admin Interface</title>
+</head>
+
+<body>
+    <main id="main">
+        <nav id="nav">
+            <div id="nav__logo">
+                <h1>Dashboard</h1>
+            </div>
+            <div id="nav__mainbtn" class="column_list">
+                <a href="#" class="app"><i class="fa-solid fa-house-chimney"></i>Home</a>
+                <a href="#" class="app"><i class="fa-solid fa-id-card"></i>Profile</a>
+                <a href="#" class="app"><i class="fa-solid fa-message"></i>Messages</a>
+                <a href="#" class="app"><i class="fa-solid fa-clock"></i>History</a>
+                <a href="#" class="app"><i class="fa-solid fa-list-check"></i>Tasks</a>
+                <a href="#" class="app"><i class="fa-solid fa-people-group"></i>Community</a>
+            </div>
+            <div id="nav_mainset" class="column_list">
+                <a href="#" class="app"><i class="fa-solid fa-sliders"></i>Settings</a>
+                <a href="#" class="app"><i class="fa-solid fa-person-circle-question"></i>Support</a>
+                <a href="#" class="app"><i class="fa-solid fa-user-shield"></i>Privacy</a>
+            </div>
+        </nav>
+        <header id="header">
+            <div id="header__top">
+                <div id="search-bar" class="horiz-central">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" name="search" id="search" maxlength="45">
+                </div>
+                <div id="header_personal" class="horiz-central">
+                    <span class="person-name notification"><i class="fa-regular fa-bell"></i></span>
+                    <img src="https://sameer5858.github.io/admin-dashboard/assets/profile-small.svg" alt=""
+                        class="small-avatar">
+                    <span class="person-name">Alex Kali</span>
+                </div>
+            </div>
+            <div id="header__bottom">
+                <div id="personal-greet" class="horiz-central">
+                    <img src="https://sameer5858.github.io/admin-dashboard/assets/profile-small.svg" alt=""
+                        class="big-avatar">
+                    <p class="bold-text shrink-text">
+                        <span class="small-text">Hi there,</span>
+                        <br>Alex Kali (@Bananarama1337)
+                    </p>
+                </div>
+                <div id="personal-btns" class="horiz-central">
+                    <button class="social-btn" type="button">New</button>
+                    <button class="social-btn" type="button">Upload</button>
+                    <button class="social-btn" type="button">Share</button>
+                </div>
+            </div>
+        </header>
+        <div id="console">
+            <div id="main__projects">
+                <div class="project-wrap">
+                    <h2>Calculator</h2>
+                    <p class="description">Apple Iphone Calculator with all working math operations and properties, such
+                        as <b>%</b>, <b>+/-</b> and etc.</p>
+                    <div class="project-links">
+                        <a href="#"><img src="svg-icons/star-regular.svg" alt="star" class="svg-img"></a>
+                        <a href="https://bananarama1337.github.io/Calculator/" target="_blank" title="Watch project"><img src="svg-icons/eye-regular.svg" alt="watch" class="svg-img"></a>
+                        <a href="https://github.com/Bananarama1337/Calculator" target="_blank" title="Github page"><img src="svg-icons/github.svg" alt="git" class="svg-img"></a>
+                    </div>
+                </div>
+                <div class="project-wrap">
+                    <h2>Etch-A-Scratch</h2>
+                    <p class="description">Simple "Magic Screen" that was realesed with hover effect. Different colors,
+                        ability to change size of pixels and clear button.</p>
+                    <div class="project-links">
+                        <a href="#"><img src="svg-icons/star-regular.svg" alt="star" class="svg-img"></a>
+                        <a href="https://bananarama1337.github.io/Etch-and-Scretch/" target="_blank" title="Watch project"><img src="svg-icons/eye-regular.svg" alt="watch" class="svg-img"></a>
+                        <a href="https://github.com/Bananarama1337/Etch-and-Scretch" target="_blank" title="Github page"><img src="svg-icons/github.svg" alt="git" class="svg-img"></a>
+                    </div>
+                </div>
+                <div class="project-wrap">
+                    <h2>Survey Form</h2>
+                    <p class="description">Survey form for any purpose. Form contains textarea, inputs, select - options, radio buttons and etc. Form is adaptive and responsive. Was build with display flex.</p>
+                    <div class="project-links">
+                        <a href="#"><img src="svg-icons/star-regular.svg" alt="star" class="svg-img"></a>
+                        <a href="https://bananarama1337.github.io/SurveyForm/" target="_blank" title="Watch project"><img src="svg-icons/eye-regular.svg" alt="watch" class="svg-img"></a>
+                        <a href="https://github.com/Bananarama1337/SurveyForm" target="_blank" title="Github page"><img src="svg-icons/github.svg" alt="git" class="svg-img"></a>
+                    </div>
+                </div>
+                <div class="project-wrap">
+                    <h2>Game of rock, paper, scissors</h2>
+                    <p class="description">Basic realisation of rock, paper, scissors game. You play against the machine, game last till someone gets 5 points. Any time you can restart the game.</p>
+                    <div class="project-links">
+                        <a href="#"><img src="svg-icons/star-regular.svg" alt="star" class="svg-img"></a>
+                        <a href="https://bananarama1337.github.io/Rock-Paper-Scissors/" target="_blank" title="Watch project"><img src="svg-icons/eye-regular.svg" alt="watch" class="svg-img"></a>
+                        <a href="https://github.com/Bananarama1337/Rock-Paper-Scissors" target="_blank" title="Github page"><img src="svg-icons/github.svg" alt="git" class="svg-img"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="tables">
+                <aside id="main__announc">
+                    <h1>Announcement</h1>
+                    <div class="announc_table">
+                        <div class="announcement">
+                            <h3>Site Maintenance</h3>
+                            <p class="small-description">
+                                Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit
+                                sodales congue...
+                            </p>
+                        </div>
+                        <div class="announcement">
+                            <h3>Community Share Day</h3>
+                            <p class="small-description">
+                                Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan
+                                porttitor...
+                            </p>
+                        </div>
+                        <div class="announcement">
+                            <h3>Updated privacy Policy</h3>
+                            <p class="small-description">
+                                Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras
+                                fringilla sagitiis sem in mattis...
+                            </p>
+                        </div>
+                    </div>
+                </aside>
+                <aside id="main_trending">
+                    <h1>Trending</h1>
+                    <div class="trending_table">
+                        <div class="trend">
+                            <img src="images/first.png" alt="avatar-1" class="small-avatar">
+                            <p class="tag-text">
+                                <span class="bold-text tag-text">@tegan</span><br>
+                                <span class="opacity-sm-text">World Peace Builder</span>
+                            </p>
+                        </div>
+                        <div class="trend">
+                            <img src="images/second.png" alt="avatar-2" class="small-avatar">
+                            <p class="tag-text">
+                                <span class="bold-text tag-text">@morgan</span><br>
+                                <span class="opacity-sm-text">Super Cool Project</span>
+                            </p>
+                        </div>
+                        <div class="trend">
+                            <img src="images/third.png" alt="avatar-3" class="small-avatar">
+                            <p class="tag-text">
+                                <span class="bold-text tag-text">@kendall</span><br>
+                                <span class="opacity-sm-text">Life Changing App</span>
+                            </p>
+                        </div>
+                        <div class="trend">
+                            <img src="images/fourth.png" alt="avatar-4" class="small-avatar rounded-img">
+                            <p class="tag-text">
+                                <span class="bold-text tag-text">@alex</span><br>
+                                <span class="opacity-sm-text">No Traffic Maker</span>
+                            </p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
